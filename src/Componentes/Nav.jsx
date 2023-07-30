@@ -11,10 +11,10 @@ const Navegacion = () => {
           <hr></hr>
           <Row>
           <Col><div className="m-1"><Link to="/"><img src="img/botonlanding.png" alt="..." width="200px"></img></Link></div></Col>
-          <Col><div className="m-1"><Link to="/MenuEstandar"><img src="../../public/img/botónestándar.png" alt="..." width="200px"></img></Link></div></Col>
-          <Col><div className="m-1"><Link to="/MenuVeggie"><img src="../../public/img/botónveggie.png" alt="..." width="200px"></img></Link></div></Col>
-          <Col><div className="m-1"><Link to="/Postres"><img src="../../public/img/botónpostres.png" alt="..." width="200px"></img></Link></div></Col>
-          <Col><div className="m-1"><Link to="/Bebidas"><img src="../../public/img/botónbebidas.png" alt="..." width="200px"></img></Link></div></Col>
+          <Col><div className="m-1"><Link to="/MenuEstandar"><img src="public/img/botónestándar.png" alt="..." width="200px"></img></Link></div></Col>
+          <Col><div className="m-1"><Link to="/MenuVeggie"><img src="public/img/botónveggie.png" alt="..." width="200px"></img></Link></div></Col>
+          <Col><div className="m-1"><Link to="/Postres"><img src="public/img/botónpostres.png" alt="..." width="200px"></img></Link></div></Col>
+          <Col><div className="m-1"><Link to="/Bebidas"><img src="public/img/botónbebidas.png" alt="..." width="200px"></img></Link></div></Col>
           </Row>
           <hr></hr>
         </div>
