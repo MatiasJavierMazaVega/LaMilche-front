@@ -19,7 +19,7 @@ const Footer = () => {
                     <Link to="https://www.instagram.com/?hl=es-la"><img src='/img/instagram.png' width="50px"></img></Link>
                     </Col>
                     <Col>
-                    <Link to="https://www.rappi.com.ar/"><img src='/img/rappi.png' width="50px"></img></Link>
+                    <Link to="/BebidasAdmin"><img src='/img/rappi.png' width="50px"></img></Link>
                     </Col>
                     <Col>
                     <Link to="https://www.pedidosya.com/"><img src='/img/pedidosya.png' width="50px"></img></Link>
