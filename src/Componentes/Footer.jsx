@@ -30,6 +30,15 @@ const Footer = () => {
                     <Col>
                     <Link to="/MenuEstandarAdmin"><p1 style={{color:"#593C2C", fontFamily:"Verdana"}}>admin</p1></Link>
                     </Col>
+                    <Col>
+                    <Link to="/MenuVeggieAdmin"><p1 style={{color:"#593C2C", fontFamily:"Verdana"}}>admin</p1></Link>
+                    </Col>
+                    <Col>
+                    <Link to="/PostresAdmin"><p1 style={{color:"#593C2C", fontFamily:"Verdana"}}>admin</p1></Link>
+                    </Col>
+                    <Col>
+                    <Link to="/BebidasAdmin"><p1 style={{color:"#593C2C", fontFamily:"Verdana"}}>admin</p1></Link>
+                    </Col>
                 </Row>
             </Col>
         </Row>
