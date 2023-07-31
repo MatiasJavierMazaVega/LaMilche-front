@@ -19,13 +19,16 @@ const Footer = () => {
                     <Link to="https://www.instagram.com/?hl=es-la"><img src='/img/instagram.png' width="50px"></img></Link>
                     </Col>
                     <Col>
-                    <Link to="/BebidasAdmin"><img src='/img/rappi.png' width="50px"></img></Link>
+                    <Link to="https://www.rappi.com.ar/"><img src='/img/rappi.png' width="50px"></img></Link>
                     </Col>
                     <Col>
                     <Link to="https://www.pedidosya.com/"><img src='/img/pedidosya.png' width="50px"></img></Link>
                     </Col>
                     <Col>
                     <Link to="https://web.whatsapp.com/"><img src='/img/whatsapp.png' width="50px"></img></Link>
+                    </Col>
+                    <Col>
+                    <Link to="/MenuEstandarAdmin"><p1 style={{color:"#593C2C", fontFamily:"Verdana"}}>admin</p1></Link>
                     </Col>
                 </Row>
             </Col>
