@@ -1,5 +1,6 @@
 import { Form, Button } from 'semantic-ui-react'
 import { useForm } from 'react-hook-form'
+import { Link } from "react-router-dom";
 import axios from 'axios';
 
 const AdminBebidas = () =>{
@@ -41,6 +42,12 @@ const AdminBebidas = () =>{
     return (
 
       <div className="container mt-5">
+        <div className="text-center m-5">
+            <Link to="/MenuEstandarAdmin"><p1 className="mx-5" style={{color:"#593C2C", fontFamily:"Verdana"}}>Clásico</p1></Link>
+            <Link to="/MenuVeggieAdmin"><p1 className="mx-5" style={{color:"#593C2C", fontFamily:"Verdana"}}>Veggie</p1></Link>
+            <Link to="/PostresAdmin"><p1 className="mx-5" style={{color:"#593C2C", fontFamily:"Verdana"}}>Postre</p1></Link>
+            <Link to="/BebidasAdmin"><p1 className="mx-5" style={{color:"#593C2C", fontFamily:"Verdana"}}>Bebida</p1></Link>
+            </div>
             <div className="text-center m-5">
             <h1 style={{color:"#F2E6DF", fontFamily:"Verdana", textAlign:"center"}}>Formulario Bebidas</h1>
             </div>
